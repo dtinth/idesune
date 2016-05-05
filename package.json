@@ -1,0 +1,21 @@
+{
+  "name": "idesune",
+  "main": "./lib/idesune",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "repository": "https://github.com/atom/idesune",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0",
+    "socket.io-client": "^1.4.6",
+    "rx": "^4.1.0"
+  },
+  "devDependencies": {
+    "standard": "^7.0.1"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle idesune",
+        "command": "idesune:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "idesune",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "idesune:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
